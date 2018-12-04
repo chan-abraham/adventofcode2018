@@ -31,6 +31,7 @@ int		find_unique(char **allStrings)
 			//breaks loop and returns 1 if the solution is found
 			if (countDifferent == 1)
 			{
+				//prints out the strings that are just one character different
 				printf("%s\n%s\n", allStrings[i], allStrings[k]);
 				return (1);
 			}
